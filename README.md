@@ -33,7 +33,7 @@ Ensure you have the following installed:
 
 ### 1. **Admin Frontend**
 ```sh
-cd admin-frontend
+cd frontend_admin
 npm install
 npm start
 ```
@@ -41,7 +41,7 @@ Runs the app in development mode. Open [http://localhost:3000](http://localhost:
 
 ### 2. **Admin Backend**
 ```sh
-cd npm-backend
+cd backend_admin
 npm install
 npm start
 ```
@@ -49,7 +49,7 @@ Runs the backend server.
 
 ### 3. **Voice Care Connect Backend**
 ```sh
-cd voice-care-connect-backend
+cd voiceapp_backend
 npm install
 npm start
 ```
@@ -57,7 +57,7 @@ Starts the backend server for voice care system.
 
 ### 4. **Voice Care Connect Frontend**
 ```sh
-cd voice-care-connect-frontend
+cd voiceapp_frontend
 npm install
 npx expo start
 ```
@@ -89,19 +89,11 @@ Runs the frontend for the voice care system using Expo.
   ```sh
   expo publish
   ```
-
----
-
-## Learn More
-- [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started)
-- [Expo Documentation](https://docs.expo.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [Azure OpenAI Documentation](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/)
-
+  
 ---
 
 ## Troubleshooting
-### `npm run build` Fails to Minify
+# `npm run build` Fails to Minify
 If the production build fails, refer to the [troubleshooting guide](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify).
 
 ---
