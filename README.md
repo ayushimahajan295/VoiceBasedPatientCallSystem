@@ -93,7 +93,7 @@ Runs the frontend for the voice care system using Expo.
 ---
 
 ## Troubleshooting
-# `npm run build` Fails to Minify
+## `npm run build` Fails to Minify
 If the production build fails, refer to the [troubleshooting guide](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify).
 
 ---
